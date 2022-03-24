@@ -44,14 +44,14 @@ public class RomanNumber {
         setValue: {
             while (true) {
                 do {
-                    System.out.print("Enter the number (the value should be less then 3999 (MMMCMXCIX)): ");
+                    System.out.print("Enter the number (the value should be less than 3999 (MMMCMXCIX)): ");
                     if (!scanner.hasNext()) {
                         System.out.println("Incorrect value! Try again.");
                         isCorrectValue = false;
                     }
                 } while (!isCorrectValue);
                 currentValue = scanner.next();
-                if (NumberFormat.romanToArabic(currentValue) > 3999) System.out.println("The value is above 3999. Please enter the value less then 3999 (MMMCMXCIX)");
+                if (NumberFormat.romanToArabic(currentValue) > 3999) System.out.println("The value is above 3999. Please enter the value less than 3999 (MMMCMXCIX)");
                 if ((isRomanNumber(currentValue)) && (NumberFormat.romanToArabic(currentValue) <= 3999)) break setValue;
             }
         }
