@@ -24,15 +24,15 @@ public class Palindrome {
     }
 
     private static String setWord() {
-        boolean inCorrectValue = true;
+        boolean isCorrectValue = true;
         Scanner scanner = new Scanner(System.in);
         do {
             System.out.print("Enter the Word: ");
             if (!scanner.hasNext()) {
                 System.out.println("Incorrect value! Try again.");
-                inCorrectValue = false;
+                isCorrectValue = false;
             }
-        } while (!inCorrectValue);
+        } while (!isCorrectValue);
         return scanner.next();
     }
 
