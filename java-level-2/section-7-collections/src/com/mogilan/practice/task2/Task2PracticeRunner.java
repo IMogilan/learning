@@ -1,4 +1,4 @@
-package com.mogilan.practice;
+package com.mogilan.practice.task2;
 
 import java.util.Arrays;
 import java.util.Collections;

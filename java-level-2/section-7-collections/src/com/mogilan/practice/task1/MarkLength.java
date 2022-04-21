@@ -1,4 +1,4 @@
-package com.mogilan.practice;
+package com.mogilan.practice.task1;
 
 import java.util.List;
 

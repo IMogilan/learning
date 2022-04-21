@@ -1,7 +1,8 @@
-package com.mogilan.practice;
+package com.mogilan.practice.task2;
 
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
 
 public final class StudentUtil {
@@ -10,8 +11,15 @@ public final class StudentUtil {
 
     public static Student getBestStudent(List<Student> students) {
         if (!students.isEmpty()) {
-            Collections.sort(students, new StudentUtil.scoreComparator());
-            return students.get(students.size() - 1);
+//            Collections.sort(students, new StudentUtil.scoreComparator());
+//            return students.get(students.size() - 1);
+            Student bestStudent = students.get(0);
+            Iterator<Student> iterator = students.iterator();
+            while (iterator.hasNext()) {
+                Student current = iterator.next();
+                if (current.getAverageMarkForTheYear() > bestStudent.getAverageMarkForTheYear()) bestStudent = current;
+            }
+            return bestStudent;
         } else return null;
     }
 

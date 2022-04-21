@@ -1,4 +1,4 @@
-package com.mogilan.practice;
+package com.mogilan.practice.task2;
 
 public class Student {
     private final String firstName;
