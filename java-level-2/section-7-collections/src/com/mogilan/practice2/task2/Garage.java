@@ -37,6 +37,30 @@ public class Garage {
         else return 0;
     }
 
+    public int numberOfCarsOfSuchType (String type) {
+        int result = 0;
+        for (Map.Entry<Car, Integer> entry : cars.entrySet()) {
+            if (entry.getKey().getType().equals(type)) result += entry.getValue();
+        }
+        return result;
+    }
+
+    public int numberOfCarsOfSuchBrand (String brand) {
+        int result = 0;
+        for (Map.Entry<Car, Integer> entry : cars.entrySet()) {
+            if (entry.getKey().getBrand().equals(brand)) result += entry.getValue();
+        }
+        return result;
+    }
+
+    public int numberOfCarsOfSuchModel (String model) {
+        int result = 0;
+        for (Map.Entry<Car, Integer> entry : cars.entrySet()) {
+            if (entry.getKey().getModel().equals(model)) result += entry.getValue();
+        }
+        return result;
+    }
+
     @Override
     public String toString() {
         return "Garage{" +

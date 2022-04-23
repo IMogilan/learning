@@ -13,8 +13,8 @@ public class GarageRunner {
         Car audiR84 = new Coupe("Audi", "R8", 2020, "Black", 300);
         Car Toyota1 = new PickupTruck("Toyota", "Tundra", 2020, "Black", 800);
         Car Toyota2 = new PickupTruck("Toyota", "Tundra", 2020, "Silver", 800);
-        Car VW1 = new PickupTruck("VW", "Multivan", 2020, "Black", 400);
-        Car VW2 = new PickupTruck("VW", "Multivan", 2020, "Silver", 400);
+        Car VW1 = new Minivan("VW", "Multivan", 2020, "Black", 7);
+        Car VW2 = new Minivan("VW", "Multivan", 2020, "Silver", 7);
 
         Garage garage = new Garage();
 
@@ -47,5 +47,10 @@ public class GarageRunner {
         System.out.println(garage.numberOfSuchCars(audiA61));
         garage.exitTheParkingLot(audiA61);
         System.out.println(garage.numberOfSuchCars(audiA61));
+
+        System.out.println(garage.numberOfCarsOfSuchType("Minivan"));
+        System.out.println(garage.numberOfCarsOfSuchModel("Tundra"));
+        System.out.println(garage.numberOfCarsOfSuchBrand("Audi"));
+
     }
 }
