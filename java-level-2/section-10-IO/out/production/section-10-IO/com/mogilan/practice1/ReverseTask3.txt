@@ -1,0 +1,46 @@
+;1ecitcarp.naligom.moc egakcap
+
+;maertStupnIeliF.oi.avaj tropmi
+;redaeReliF.oi.avaj tropmi
+;noitpecxEOI.oi.avaj tropmi
+;seliF.elif.oin.avaj tropmi
+;htaP.elif.oin.avaj tropmi
+;rennacS.litu.avaj tropmi
+;rehctaM.xeger.litu.avaj tropmi
+;nrettaP.xeger.litu.avaj tropmi
+
+итсевыв и итйан екортс йоджак В .мотскет с лйаф надаЗ .3**/
+/*.дярдоп хищуди ,рфиц олсич еешьлобиан 
+
+{ 3ksaT ssalc cilbup
+{ noitpecxEOI sworht )sgra ][gnirtS(niam diov citats cilbup    
+;)"txt.srebmuNelif" ,"1ecitcarp" ,"naligom" ,"moc" ,"crs"(fo.htaP = htap htaP        
+
+)rennacS( 1 noitpO//        
+;)" :)rennacS( 1 noitpO"(tnirp.tuo.metsyS        
+{ ))htap(rennacS wen = rennacs rennacS( yrt        
+{ ))(eniLtxeNsah.rennacs( elihw            
+;)" " + ))(eniLtxen.rennacs(rebmuNfOhtgneLxaMdnif(tnirp.tuo.metsyS                
+}            
+}        
+;)(nltnirp.tuo.metsyS        
+
+)maertS + seliF( 2 noitpO//        
+;)" :)maertS + seliF( 2 noitpO"(tnirp.tuo.metsyS        
+)(maerts.)htap(seniLllAdaer.seliF        
+)rebmuNfOhtgneLxaMdnif::3ksaT(pam.                
+;))" " + gnirts(tnirp.tuo.metsyS >- gnirts(hcaErof.                
+}    
+
+{ )eniLtxen gnirtS(rebmuNfOhtgneLxaMdnif tni citats etavirp    
+;0 = tluser tni        
+;"+]d\\[" = xExer gnirtS        
+;)xExer(elipmoc.nrettaP = nrettap nrettaP        
+;)eniLtxen(rehctam.nrettap = rehctam rehctaM        
+{ ))(dnif.rehctam( elihw        
+;)(puorg.rehctam = rebmuNwen gnirtS            
+;)(htgnel.rebmuNwen = tluser )tluser > )(htgnel.rebmuNwen( fi            
+}        
+;tluser nruter        
+}    
+}
