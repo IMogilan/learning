@@ -6,9 +6,8 @@ import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
 
-import static com.mogilan.homework.resources.HomeWorkUtil.*;
+import static com.mogilan.homework.HomeWorkUtil.*;
 
 public class HomeWorkRunner {
     public static void main (String [] args) throws IOException {

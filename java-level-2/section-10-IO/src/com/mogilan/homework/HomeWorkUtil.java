@@ -1,4 +1,4 @@
-package com.mogilan.homework.resources;
+package com.mogilan.homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;
