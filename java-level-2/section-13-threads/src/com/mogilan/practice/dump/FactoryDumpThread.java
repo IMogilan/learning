@@ -21,7 +21,7 @@ public class FactoryDumpThread extends Thread {
            int currentNightNumber = night.getCurrentNumber();
            while (currentNightNumber <= MAX_NUMBER_OF_DAYS) {
                long startTimeMillis = System.currentTimeMillis();
-               int numberOfNewDetails = RANDOM.nextInt(MAX_NUMBER_OF_DETAILS_AT_ONE_DAY);
+               int numberOfNewDetails = Math.max(RANDOM.nextInt(MAX_NUMBER_OF_DETAILS_AT_ONE_DAY), 1);
                for (int i = 0; i < numberOfNewDetails; i++) {
                    Detail newDetail = Detail.getRandomDetail();
                    synchronized (factoryDump) {

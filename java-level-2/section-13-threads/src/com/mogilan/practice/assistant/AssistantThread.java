@@ -38,7 +38,7 @@ public class AssistantThread extends Thread {
     }
 
     private void takeDetailsOnFactoryDump () {
-        int numberOfNewDetails = RANDOM.nextInt(MAX_NUMBER_OF_DETAILS_AT_ONE_DAY);
+        int numberOfNewDetails = Math.max(RANDOM.nextInt(MAX_NUMBER_OF_DETAILS_AT_ONE_DAY), 1);
         for (int i = 0; i < numberOfNewDetails; i++) {
             Detail currentDetail;
                 synchronized (factoryDump) {

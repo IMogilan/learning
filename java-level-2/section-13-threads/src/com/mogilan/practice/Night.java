@@ -13,8 +13,8 @@ public class Night extends Thread {
                 System.out.println("Night number " + currentNumber);
                 currentNumber++;
                 try {
-                    this.wait(RobotProductionUtil.ONE_DAY_DURATION);
                     this.notifyAll();
+                    this.wait(RobotProductionUtil.ONE_DAY_DURATION);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
