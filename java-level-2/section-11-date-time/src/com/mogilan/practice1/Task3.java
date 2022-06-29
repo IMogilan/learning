@@ -1,4 +1,4 @@
-package com.mogilan.practice;
+package com.mogilan.practice1;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

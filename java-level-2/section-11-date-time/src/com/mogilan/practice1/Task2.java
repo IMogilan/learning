@@ -1,4 +1,4 @@
-package com.mogilan.practice;
+package com.mogilan.practice1;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

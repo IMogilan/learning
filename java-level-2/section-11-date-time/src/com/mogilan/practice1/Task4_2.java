@@ -1,9 +1,6 @@
-package com.mogilan.practice;
+package com.mogilan.practice1;
 
-import java.time.Duration;
 import java.time.LocalDate;
-import java.time.Period;
-import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 
 /**4. Создать объект LocalDate, представляющий собой сегодняшнюю

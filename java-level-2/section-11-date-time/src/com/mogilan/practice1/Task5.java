@@ -1,10 +1,8 @@
-package com.mogilan.practice;
+package com.mogilan.practice1;
 
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.temporal.ChronoUnit;
 
 /**5. Даны два объекта LocalDate из предыдущего задания. Подсчитать количество
  секунд между полуночью первой даты и полуночью второй даты.*/

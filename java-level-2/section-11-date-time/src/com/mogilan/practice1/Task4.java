@@ -1,9 +1,8 @@
-package com.mogilan.practice;
+package com.mogilan.practice1;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 /**4. Использовать LocalDateTime из предыдущего задания, преобразовать его
